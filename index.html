@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f4f1e9">
+	<title>Outline — A Simple Page</title>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: {
+						sans: ['DM Sans', 'sans-serif'],
+						display: ['Space Grotesk', 'sans-serif'],
+					},
+				},
+			},
+		};
+	</script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#f4f1e9] font-sans text-[#20231f] antialiased">
+	<header class="sticky top-0 z-10 border-b border-[#20231f]/10 bg-[#f4f1e9]/95 backdrop-blur">
+		<div class="mx-auto flex max-w-7xl items-center px-6 py-5 sm:px-10">
+			<a href="#home" class="flex items-center gap-1 font-display text-xl font-bold tracking-tight" aria-label="TenOrca home">
+				<img class="h-12 w-12 shrink-0 object-contain" src="images/orca3.png" alt="" decoding="async">
+				<span>TENORCA<span class="text-[#e66b4e]">.</span></span>
+			</a>
+		</div>
+	</header>
+
+	<main id="home">
+		<section id="idea" class="flex min-h-[42vh] scroll-mt-20 items-center overflow-hidden bg-[#d9e1d1] px-6 py-16 sm:min-h-[48vh] sm:px-10">
+			<div class="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 sm:flex-row sm:justify-between">
+				<h1 class="font-display text-6xl font-medium leading-[0.95] tracking-tight sm:text-8xl lg:text-9xl">A clear idea.</h1>
+				<img class="h-56 w-56 shrink-0 rounded-2xl object-cover sm:h-64 sm:w-64 lg:h-72 lg:w-72" src="images/orca1.png" alt="Orca" loading="lazy" decoding="async">
+			</div>
+		</section>
+		<section id="practice" class="flex min-h-[42vh] scroll-mt-20 items-center overflow-hidden bg-[#e7a28c] px-6 py-16 sm:min-h-[48vh] sm:px-10">
+			<div class="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 sm:flex-row sm:justify-between">
+				<h2 class="font-display text-6xl font-medium leading-[0.95] tracking-tight sm:text-8xl lg:text-9xl">Good practice.</h2>
+				<img class="h-56 w-56 shrink-0 rounded-2xl object-cover sm:h-64 sm:w-64 lg:h-72 lg:w-72" src="images/orca2.png" alt="Orca" loading="lazy" decoding="async">
+			</div>
+		</section>
+		<section id="work" class="flex min-h-[42vh] scroll-mt-20 items-center overflow-hidden bg-[#e9dfc9] px-6 py-16 sm:min-h-[48vh] sm:px-10">
+			<div class="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 sm:flex-row sm:justify-between">
+				<h2 class="font-display text-6xl font-medium leading-[0.95] tracking-tight sm:text-8xl lg:text-9xl">Made to matter.</h2>
+				<img class="h-56 w-56 shrink-0 rounded-2xl object-cover sm:h-64 sm:w-64 lg:h-72 lg:w-72" src="images/orca3.png" alt="Orca" loading="lazy" decoding="async">
+			</div>
+		</section>
+		<section id="notes" class="flex min-h-[42vh] scroll-mt-20 items-center overflow-hidden bg-[#b9c9e4] px-6 py-16 sm:min-h-[48vh] sm:px-10">
+			<div class="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 sm:flex-row sm:justify-between">
+				<h2 class="font-display text-6xl font-medium leading-[0.95] tracking-tight sm:text-8xl lg:text-9xl">Room to think.</h2>
+				<img class="h-56 w-56 shrink-0 rounded-2xl object-cover sm:h-64 sm:w-64 lg:h-72 lg:w-72" src="images/orca1.png" alt="Orca" loading="lazy" decoding="async">
+			</div>
+		</section>
+		<section id="contact" class="flex min-h-[42vh] scroll-mt-20 items-center overflow-hidden bg-[#242e27] px-6 py-16 text-[#f4f1e9] sm:min-h-[48vh] sm:px-10">
+			<div class="mx-auto flex w-full max-w-7xl flex-col items-center gap-8 sm:flex-row sm:justify-between">
+				<h2 class="font-display text-6xl font-medium leading-[0.95] tracking-tight sm:text-8xl lg:text-9xl">Start somewhere.</h2>
+				<img class="h-56 w-56 shrink-0 rounded-2xl object-cover sm:h-64 sm:w-64 lg:h-72 lg:w-72" src="images/orca2.png" alt="Orca" loading="lazy" decoding="async">
+			</div>
+		</section>
+	</main>
+
+	<footer class="flex flex-col justify-between gap-3 px-6 py-7 text-xs font-medium uppercase tracking-[0.12em] sm:flex-row sm:px-10">
+		<a href="#home" class="font-display text-sm font-bold tracking-normal">TenOrca<span class="text-[#e66b4e]">.</span></a>
+		<p>© 2026 TenOrca</p>
+	</footer>
+</body>
