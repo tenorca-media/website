@@ -1,7 +1,8 @@
-# TenOrca website
+# ChatDeck landing page
 
-The site is a minimal Next.js App Router application. The page is intentionally
-blank so it can be rebuilt from scratch.
+This project uses the [ChatDeck SaaS landing page template](https://www.shadcndeck.com/templates/chatdeck-saas-landing-page)
+by [ShadcnDeck](https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template),
+kept with its original branding and sample content.
 
 ## Development
 
